@@ -6,6 +6,7 @@
 
 body {
   font-family: "Work Sans", sans-serif;
+  color: #534c64;
   margin: 0px;
   padding: 0px;
 }
@@ -123,7 +124,6 @@ a.tiktok-youtube-icon {
   font-weight: 500;
   padding: 0px;
   margin: 20px 0px;
-
 }
 .icon-margin-right {
   margin-right: 12px;
@@ -158,4 +158,198 @@ a.tiktok-youtube-icon {
 
 .play-like-right-column img {
   width: 100%;
+}
+
+/* gamer section styles start here */
+.gamer-background {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+
+.gamer-section {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.gamer-left-column {
+  width: 50vw;
+}
+
+.gamer-left-column img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.gamer-right-column {
+  width: 30vw;
+  text-align: right;
+}
+h2.gamer-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+p.gamer-details {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.gamer-red-button {
+  background-color: #ff42a5;
+}
+.gamer-quotation p {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.gamer-quotation h3 {
+  color: #534c64;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 0px;
+}
+
+/* online game funny vidwo section */
+
+.online-game-section {
+  max-width: 80vw;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.online-single-column {
+  object-fit: cover;
+}
+.online-single-column img {
+  width: 100%;
+}
+.online-single-column p {
+  text-align: center;
+}
+
+/* plany instantly section start from header */
+.play-instantly {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.play-instantly-section {
+  display: flex;
+  align-items: center;
+}
+.play-instantly-left {
+  width: 30vw;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.play-instantly-left h2 {
+  text-align: right;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #0b0223;
+}
+
+.play-instantly-left p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: right;
+}
+
+.play-instantly-left h2 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-right {
+  width: 50vw;
+  text-align: right;
+  position: relative;
+}
+.play-main-img {
+  width: 50vw;
+  position: relative;
+}
+
+.play-main-img img {
+  width: 40vw;
+}
+.play-corner-img {
+  width: 250px;
+  position: absolute;
+  margin-top: -250px;
+}
+.play-corner-img img {
+  width: 100%;
+}
+
+/* careers section start from here */
+
+.careers-section {
+}
+.career-section-container {
+  display: flex;
+  align-items: center;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.careers-left-column {
+  width: 40vw;
+  text-align: left;
+}
+
+.careers-left-column h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  padding: 0;
+}
+.careers-left-column p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: black;
+}
+.career-list {
+  display: flex;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.list-two {
+  margin-left: 70px;
+  text-align: right;
+}
+
+
+.career-list {
+}
+
+.btn-career {
+    margin-top: 30px;
+    background-color: #ff42a5;
+}
+
+.career-right-column {
+  width: 40vw;
+}
+.career-right-column img {
+  width: 40vw;
+}
+.careers {
+}
+.careers {
 }

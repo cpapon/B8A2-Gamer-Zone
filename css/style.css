@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.head-nav-section {
+  background-color: #fff;
+}
+.navigation-container {
+  max-width: 80vw;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.logo p {
+  font-size: 45px;
+  font-weight: 700;
+  color: #0b0223;
+  margin: 10px 0px;
+}
+span.logo-1st-letter {
+  color: #ff42a5;
+}
+
+.nav-bar {
+  width: 50%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a.follow-us-btn {
+  padding: 15px 25px;
+  background: rgba(11, 2, 35, 0.1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+a.tiktok-youtube-icon {
+}
+
+.follow-us-btn {
+}
+.tiktok-icon {
+  margin-left: 15px;
+  font-size: 30px;
+  color: #000000;
+}
+
+.youtube-icon {
+  margin-left: 25px;
+  color: red;
+  font-size: 30px;
+}
+
+.play-like-column {
+}
+
+/* main section top styles  */
+.main-top-section {
+  max-width: 80vw;
+  display: flex;
+  margin: 0 auto;
+  min-height: 300px;
+  align-items: center;
+}
+
+.play-like-left-column {
+  width: 40vw;
+}
+
+.like-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.goat-title {
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+}
+
+.play-like-left-column p {
+  color: #534c64;
+  font-family: 20px;
+  text-transform: lowercase;
+  font-weight: 500;
+  padding: 0px;
+  margin: 20px 0px;
+
+}
+.icon-margin-right {
+  margin-right: 12px;
+  width: 24px;
+  color: #ff42a5;
+  object-fit: cover;
+}
+
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border: 0;
+  border-radius: 45px;
+  cursor: pointer;
+}
+
+.play-section-btn .red-button {
+  background-color: #ff42a5;
+  margin-right: 20px;
+}
+
+.play-section-btn .blue-button {
+  background-color: #4ec5f7;
+}
+
+.play-like-right-column {
+  width: 40vw;
+}
+
+.play-like-right-column img {
+  width: 100%;
+}

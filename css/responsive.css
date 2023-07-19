@@ -1,6 +1,130 @@
-@media screen and (min-width: 426px) and (max-width:768px) {
-    
+/* Table large style start here */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .navigation-container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .nav-bar {
+    width: 100%;
+  }
+
+  .top-header-container {
+    background-image: none;
+  }
+  .like-title {
+    color: #0b0223;
+    font-size: 30px;
+  }
+
+  .goat-title {
+    font-size: 50px;
+  }
+
+  .top-header-container {
+    padding-bottom: 30px;
+  }
+  .btn-primary {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 15px;
+  }
+  .gamer-section {
+  }
+
+  .gamer-left-column {
+    width: 50vw;
+  }
+
+  .gamer-left-column img {
+    width: 50vw;
+  }
+
+  .gamer-right-column {
+    width: 30vw;
+  }
+
+  h2.gamer-title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  p.gamer-details {
+    color: #534c64;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .gamer-red-button {
+    background-color: #ff42a5;
+  }
+  .gamer-quotation p {
+    color: #534c64;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .gamer-quotation h3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  h2.online-games-title {
+    font-size: 30px;
+  }
+  .play-instantly-left h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .play-instantly-left p {
+    font-size: 15px;
+  }
+  .play-instantly-left {
+    width: 30vw;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+  .play-corner-img {
+    width: 100px;
+    margin-top: -100px;
+    margin-left: 70px;
+  }
+  .career-section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .careers-left-column {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .career-right-column {
+    width: 80vw;
+  }
+  .career-right-column img {
+    width: 100%;
+  }
+  .careers-section {
+    background-image: none;
+    margin-top: 50px;
+  }
+  .btn-primary {
+    color: #ff42a5;
+  }
 }
+
+
+
+
+/* Mobile large style start here */
+
 @media screen and (max-width: 425px) {
   .navigation-container {
     flex-direction: column;
@@ -112,7 +236,7 @@
     margin-left: 0px;
   }
 
-.career-right-column {
+  .career-right-column {
     width: 80vw;
   }
   .career-right-column img {
@@ -121,14 +245,13 @@
   .careers-section {
     background-image: none;
     margin-top: 100px;
-    }
+  }
 
-.bottom-logo,
-.term-condition,
-.bottom-nav-bar {
- flex-direction: column;
- 
+  .bottom-logo,
+  .term-condition,
+  .bottom-nav-bar {
+    flex-direction: column;
+
     gap: 10px;
- 
-}
+  }
 }

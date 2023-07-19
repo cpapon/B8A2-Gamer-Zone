@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
+/* shared style start here */
+
 * {
   box-sizing: border-box;
 }
@@ -14,6 +16,8 @@ footer,
 section {
   margin-top: 50px;
 }
+
+/* header navigation section style start here */
 
 .head-nav-section {
   background-color: #fff;
@@ -71,11 +75,6 @@ a.follow-us-btn {
   align-items: center;
 }
 
-a.tiktok-youtube-icon {
-}
-
-.follow-us-btn {
-}
 .tiktok-icon {
   margin-left: 15px;
   font-size: 30px;
@@ -89,12 +88,12 @@ a.tiktok-youtube-icon {
 }
 
 /* main section top styles  */
-.top-header-container{
-    background-color: #fafafa;
-    background-image: url("../images/group-14.png");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 50vw;
+.top-header-container {
+  background-color: #fafafa;
+  background-image: url("../images/group-14.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 50vw;
 }
 .main-top-section {
   max-width: 80vw;
@@ -270,13 +269,13 @@ h2.online-games-title span {
 }
 
 .online-single-column img:hover {
-
-  }
+}
 
 .online-single-column img {
   width: 100%;
 }
 .online-single-column p {
+  font-size: 15px;
   text-align: left;
 }
 
@@ -324,7 +323,6 @@ h2.online-games-title span {
   position: relative;
 }
 
-
 .play-main-img img {
   width: 35vw;
 }
@@ -341,20 +339,19 @@ h2.online-games-title span {
 /* careers section start from here */
 
 .careers-section {
-background-color:#f948b2;
-background-image: url("../images/group-14.png");
-background-position: top left;
-background-repeat: no-repeat;
-background-size: 50vw;
-margin-top: 100px;
-
+  background-color: #f948b2;
+  background-image: url("../images/group-14.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 50vw;
+  margin-top: 100px;
 }
 .career-section-container {
   display: flex;
   align-items: center;
   max-width: 80vw;
   margin: 0 auto;
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 
 .careers-left-column {
@@ -365,7 +362,7 @@ margin-top: 100px;
 .careers-left-column h3 {
   font-size: 40px;
   font-weight: 700;
-  color:#fff;
+  color: #fff;
   padding: 0;
 }
 .careers-left-column p {
@@ -387,7 +384,7 @@ margin-top: 100px;
 }
 
 .career-list li {
-color: #fff;
+  color: #fff;
 }
 
 .btn-career {
@@ -406,7 +403,11 @@ color: #fff;
 /* games types section from here */
 
 .types-games-section {
-  background: linear-gradient(90deg,rgba(255, 66, 165, 0.03) 0%,rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
   padding: 50px;
 }
 .games-corner {
@@ -453,19 +454,19 @@ color: #fff;
   margin-left: 10px;
 }
 .games1:hover {
-    background-color: #fff;
-    cursor: pointer;
-    border: 1px solid #f948b2;
-    color: #ff42a5;
-    font-weight: 600;
-  }
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #f948b2;
+  color: #ff42a5;
+  font-weight: 600;
+}
 .games2:hover {
-    background-color: #fff;
-    cursor: pointer;
-    border: 1px solid #f948b2;
-    color: #ff42a5;
-    font-weight: 600;
-  }
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #f948b2;
+  color: #ff42a5;
+  font-weight: 600;
+}
 
 /* Footer section style here */
 .footer-section {

@@ -1,4 +1,134 @@
-@media screen and (max-width:425px) {
+@media screen and (min-width: 426px) and (max-width:768px) {
     
-    
+}
+@media screen and (max-width: 425px) {
+  .navigation-container {
+    flex-direction: column;
+  }
+  .logo {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  .nav-bar a {
+    margin-top: 10px;
+  }
+  .top-header-container {
+    background-image: none;
+  }
+  .main-top-section {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .play-like-left-column {
+    width: 80vw;
+  }
+  .play-like-right-column {
+    width: 80vw;
+  }
+  .play-like-right-column img {
+    width: 80vw;
+  }
+  .gamer-section {
+    flex-direction: column;
+  }
+  .gamer-left-column {
+    width: 80vw;
+  }
+
+  .gamer-left-column img {
+    width: 80vw;
+  }
+
+  .gamer-right-column {
+    width: 80vw;
+  }
+  .gamer-quotation h3 {
+    color: #534c64;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .online-game-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  h2.online-games-title {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #0b0223;
+  }
+
+  .play-instantly-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .play-instantly-left {
+    width: 80vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .play-instantly-right {
+    width: 80vw;
+    text-align: center;
+    position: relative;
+  }
+  .play-instantly-right img {
+    width: 80vw;
+    text-align: right;
+  }
+
+  .play-corner-img {
+    display: none;
+  }
+
+  .career-section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .careers-left-column {
+    width: 80vw;
+    text-align: center;
+  }
+  .career-list {
+    flex-direction: column;
+    text-align: center;
+  }
+  .list-one {
+    text-align: center;
+    width: 80vw;
+  }
+  .list-two {
+    text-align: center;
+    width: 80vw;
+    margin-left: 0px;
+  }
+
+.career-right-column {
+    width: 80vw;
+  }
+  .career-right-column img {
+    width: 80vw;
+  }
+  .careers-section {
+    background-image: none;
+    margin-top: 100px;
+    }
+
+.bottom-logo,
+.term-condition,
+.bottom-nav-bar {
+ flex-direction: column;
+ 
+    gap: 10px;
+ 
+}
 }

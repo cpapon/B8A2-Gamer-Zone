@@ -261,13 +261,18 @@ h2.online-games-title span {
   text-align: center;
   font-size: 15px;
   font-weight: 400;
-  line-height: 10px;
+  line-height: 20px;
   margin-bottom: 40px;
 }
 
 .online-single-column {
   object-fit: cover;
 }
+
+.online-single-column img:hover {
+
+  }
+
 .online-single-column img {
   width: 100%;
 }
